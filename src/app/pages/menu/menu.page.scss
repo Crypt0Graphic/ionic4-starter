@@ -4,3 +4,7 @@
     color: var(--ion-color-secondary);
   }
 }
+
+ion-list > ion-menu-toggle > ion-item > ion-icon {
+  margin-right: 16px !important;
+}
