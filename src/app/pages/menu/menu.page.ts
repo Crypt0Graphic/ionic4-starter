@@ -12,7 +12,8 @@ export class MenuPage implements OnInit {
   pages = [
     {
       title: 'Home',
-      url: '/menu/main'
+      url: '/menu/main',
+      icon: 'home'
     },
     // If you want to settings and about at menu remove comment. They will be shown without tabs.
     // {
@@ -25,7 +26,8 @@ export class MenuPage implements OnInit {
     // },
     {
       title: 'Login',
-      url: '/menu/login'
+      url: '/menu/login',
+      icon: 'log-in'
     }
   ];
 

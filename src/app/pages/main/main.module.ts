@@ -17,6 +17,10 @@ const routes: Routes = [
         loadChildren: '../settings/settings.module#SettingsPageModule'
       },
       {
+        path: 'settings/notifications',
+        loadChildren: '../settings/notifications/notifications.module#NotificationsPageModule'
+      },
+      {
         path: 'about',
         loadChildren: '../about/about.module#AboutPageModule'
       }
@@ -30,10 +34,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [
-    SharedModule,
-    RouterModule.forChild(routes)
-  ],
+  imports: [SharedModule, RouterModule.forChild(routes)],
   declarations: [MainPage]
 })
 export class MainPageModule {}

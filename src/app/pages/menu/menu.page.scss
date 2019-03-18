@@ -1,3 +1,6 @@
 .active-item {
   border-left: 4px solid var(--ion-color-secondary);
+  ion-icon{
+    color: var(--ion-color-secondary);
+  }
 }
