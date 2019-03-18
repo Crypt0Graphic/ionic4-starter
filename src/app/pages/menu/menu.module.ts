@@ -13,20 +13,21 @@ const routes: Routes = [
         loadChildren: '../main/main.module#MainPageModule'
       },
       {
-        path: 'settings',
-        loadChildren: '../settings/settings.module#SettingsPageModule'
+        path: 'login',
+        loadChildren: '../login/login.module#LoginPageModule'
       },
+      // If you want to settings and about at menu remove comment. They will be shown without tabs.
+      // {
+      //   path: 'about',
+      //   loadChildren: '../about/about.module#AboutPageModule'
+      // },
+      // {
+      //   path: 'settings',
+      //   loadChildren: '../settings/settings.module#SettingsPageModule'
+      // },
       {
         path: 'settings/notifications',
         loadChildren: '../settings/notifications/notifications.module#NotificationsPageModule'
-      },
-      {
-        path: 'about',
-        loadChildren: '../about/about.module#AboutPageModule'
-      },
-      {
-        path: 'login',
-        loadChildren: '../login/login.module#LoginPageModule'
       }
     ]
   }

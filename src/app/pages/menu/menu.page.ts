@@ -15,6 +15,11 @@ export class MenuPage implements OnInit {
       url: '/menu/main',
       icon: 'home'
     },
+    {
+      title: 'Login',
+      url: '/menu/login',
+      icon: 'log-in'
+    },
     // If you want to settings and about at menu remove comment. They will be shown without tabs.
     // {
     //   title: 'About',
@@ -24,11 +29,7 @@ export class MenuPage implements OnInit {
     //   title: 'Settings',
     //   url: '/menu/settings'
     // },
-    {
-      title: 'Login',
-      url: '/menu/login',
-      icon: 'log-in'
-    }
+
   ];
 
   constructor(private router: Router) {
